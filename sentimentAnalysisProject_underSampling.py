@@ -2,7 +2,6 @@
 
 from pythainlp.tokenize import word_tokenize
 
-import re
 
 import numpy as np
 

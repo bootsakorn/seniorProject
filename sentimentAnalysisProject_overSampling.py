@@ -25,7 +25,7 @@ dataTestNeg = []
 
 # Over-sampling
 ranNeg = random.choices(neg, k=len(pos)-len(neg))
-neg= neg+ranNeg
+neg = neg+ranNeg
 
 for i in pos:
     if random.randint(0,1) == 0 :
